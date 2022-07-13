@@ -6,13 +6,11 @@
 /*   By: jiwonhan <jiwonhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 15:19:21 by jiwonhan          #+#    #+#             */
-/*   Updated: 2022/07/07 15:20:44 by jiwonhan         ###   ########.fr       */
+/*   Updated: 2022/07/11 13:37:42 by jiwonhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
-
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
 	if (c >= 0 && c <= 127)
 		return (1);

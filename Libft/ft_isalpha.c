@@ -6,15 +6,13 @@
 /*   By: jiwonhan <jiwonhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 11:28:53 by jiwonhan          #+#    #+#             */
-/*   Updated: 2022/07/07 15:11:03 by jiwonhan         ###   ########.fr       */
+/*   Updated: 2022/07/11 13:37:29 by jiwonhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
-
-int ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
-	if ((c>= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	else
 		return (0);

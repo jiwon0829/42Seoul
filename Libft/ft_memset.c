@@ -6,15 +6,15 @@
 /*   By: jiwonhan <jiwonhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 15:25:04 by jiwonhan          #+#    #+#             */
-/*   Updated: 2022/07/07 15:29:36 by jiwonhan         ###   ########.fr       */
+/*   Updated: 2022/07/13 18:21:28 by jiwonhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
-void* ft_memset(void *b, int c, size_t len)
+void	*ft_memset(void *b, int c, size_t len)
 {
-	unsigned char *ptr;
+	unsigned char	*ptr;
 
 	ptr = (unsigned char *)b;
 	while (len--)

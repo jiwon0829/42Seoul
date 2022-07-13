@@ -6,16 +6,14 @@
 /*   By: jiwonhan <jiwonhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 15:21:03 by jiwonhan          #+#    #+#             */
-/*   Updated: 2022/07/07 15:22:13 by jiwonhan         ###   ########.fr       */
+/*   Updated: 2022/07/11 13:39:32 by jiwonhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <ctype.h>
 
 int	ft_isprint(int c)
 {
 	if (c >= 32 && c <= 126)
 		return (1);
 	else
-		return  (0);	
+		return (0);
 }

@@ -6,13 +6,11 @@
 /*   By: jiwonhan <jiwonhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 15:13:23 by jiwonhan          #+#    #+#             */
-/*   Updated: 2022/07/07 15:14:31 by jiwonhan         ###   ########.fr       */
+/*   Updated: 2022/07/11 13:38:07 by jiwonhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
-
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 		return (1);
